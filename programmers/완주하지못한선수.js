@@ -15,7 +15,7 @@ function solution(participant, completion) {
     }
   });
   // completion을 반복문 주체로 하여 countPerson과 비교하게끔 해야함
-  
+
   return Object.keys(countPerson)[0];
 }
 
@@ -24,8 +24,5 @@ const completion1 = ['stanko', 'ana', 'mislav'];
 
 const participant2 = ['leo', 'kiki', 'eden'];
 const completion2 = ['eden', 'kiki'];
-
-const participant3 = ['marina', 'josipa', 'nikola', 'vinko', 'filipa'];
-const completion3 = ['josipa', 'filipa', 'marina', 'nikola'];
 
 solution(participant1, completion1);
