@@ -14,7 +14,8 @@ function solution(participant, completion) {
       delete countPerson[finshed];
     }
   });
-
+  // completion을 반복문 주체로 하여 countPerson과 비교하게끔 해야함
+  
   return Object.keys(countPerson)[0];
 }
 
